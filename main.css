@@ -104,7 +104,7 @@ p{
 }
 
 .row {
-	margin: 0 -15px;
+	margin: 1 -15px;
 }
 
 .row::after {
@@ -137,24 +137,24 @@ p{
     width: 700px;
     margin: 0 auto;
   }
-  
+
   .col-tablet-4 {
     width: 33.333%;
-  }	
+  }
 	.visible-mobile {
 	display: none;
 }
-	
+
 	.visible-tablet {
 		display: block;
 	}
-	
-	
+
+
 }
 
 /* desktop */
 @media (min-width: 1200px) {
-	
+
 	.visible-tablet {
 	display: none;
 }
@@ -224,7 +224,7 @@ p{
 }
 .footer a {
 	color: white;
-	text-decoration: none;	
+	text-decoration: none;
 }
 
 .footer a:hover {
