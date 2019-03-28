@@ -1,0 +1,241 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	font-size: 18px;
+	background-color: #141212;
+	font-family: 'Roboto Mono', monospace, Arial, Helvetica, Sans-Serif;
+	position: relative;
+}
+
+.home{
+	height: auto;
+	margin: 0px;
+	top: 0;
+	z-index: 999;
+	width: 100%;
+}
+
+.container {
+	position: relative;
+}
+
+.nav {
+	text-align: center;
+}
+
+.nav ul {
+	padding: 0px;
+	margin: 0px;
+}
+
+.nav ul li{
+	list-style: none;
+	display: inline-block;
+}
+
+.nav ul li a{
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 20px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 30px;
+	font-family: impact;
+	font-weight: bold;
+	margin: 10px 15px;
+	display: inline-block;
+	color: indianred;
+	transition: .3s;
+}
+
+.nav ul li a:hover,
+.nav ul li.active a{
+	color:cyan;
+	background-color: lightcoral;
+	width: 100%;
+}
+
+.nav ul li.active a {
+	color: cyan;
+	background-color: lightcoral;
+}
+
+.intro{
+	margin: 0px;
+}
+
+img.marlon{
+	background-repeat: no-repeat;
+	background-position: 50%;
+	border-radius: 50%;
+	height: 220px;
+	width: 220px;
+}
+
+.portfolio-image{
+	text-align: center;
+}
+
+h1{
+	color: white;
+	text-align: center;
+}
+
+h2{
+	font-size: 20px;
+	color: white;
+	opacity: .7;
+	text-align: center;
+}
+
+p{
+	color: white;
+}
+
+.gallery{
+	margin: 20px;
+}
+
+.gallery-images{
+	width: 100%;
+	object-fit: contain;
+}
+
+.row {
+	margin: 1 -15px;
+}
+
+.row::after {
+	content: "";
+	display:table;
+	clear: both;
+}
+
+.col {
+	padding: 0px 15px;
+	float: left;
+	width: 100%;
+}
+.col-phone-6 {
+	width: 100%;
+}
+
+.clearfix {
+	clear: both;
+}
+
+.visible-desktop,
+.visible-tablet {
+	display: none;
+}
+
+/* tablet */
+@media (min-width: 730px) {
+  .container {
+    width: 700px;
+    margin: 0 auto;
+  }
+
+  .col-tablet-4 {
+    width: 33.333%;
+  }
+	.visible-mobile {
+	display: none;
+}
+
+	.visible-tablet {
+		display: block;
+	}
+
+
+}
+
+/* desktop */
+@media (min-width: 1200px) {
+
+	.visible-tablet {
+	display: none;
+}
+	.visible-desktop
+	 {
+		display: block;
+	}
+  .container {
+    width: 1170px;
+  }
+  .col-desktop-3 {
+    width: 25%;
+  }
+}
+
+.contactform{
+	margin: 10px;
+}
+
+.contact{
+	color: greenyellow;
+	text-align: left;
+}
+
+
+.inputtext{
+	width: 55%;
+	height: 60px;
+	border: 3px solid white;
+	color: white;
+	background-color: rgba(0,0,0,0.7);
+	font-size: 20px;
+	padding: 0px 10px;
+	margin-bottom: 15px;
+}
+
+.inputmessage{
+	width: 55%;
+	height: 120px;
+	border: 3px solid white;
+	color: white;
+	background-color: rgba(0,0,0,0.7);
+	font-size: 20px;
+	padding: 0px 10px;
+	display: block;
+}
+
+.submitbutton{
+    width: 120px;
+    height: 40px;
+    font-family: arial;
+    color: black;
+    background-color: white;
+    font-size: 20px;
+    border: none;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.footer{
+	background-color:dimgray;
+	padding: 10px 10px;
+	max-width: 100%;
+	color: dimgray;
+	font-size: 12px;
+	display: block;
+}
+.footer a {
+	color: white;
+	text-decoration: none;
+}
+
+.footer a:hover {
+	color:cyan;
+}
+
+.fa{
+  color: white;
+  margin-right: 5px;
+}
+
+.fa-user:hover{
+  color: cyan;
+}
