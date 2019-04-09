@@ -114,7 +114,7 @@ p{
 }
 
 .col {
-	padding: 0px 15px;
+	padding: 1px 15px;
 	float: left;
 	width: 100%;
 }
@@ -139,7 +139,7 @@ p{
   }
 
   .col-tablet-4 {
-    width: 33.333%;
+    width: 33%;
   }
 	.visible-mobile {
 	display: none;
