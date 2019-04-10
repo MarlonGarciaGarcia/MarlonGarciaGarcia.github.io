@@ -169,7 +169,7 @@ p{
     width: 25%;
   }
 }
-
+/*                 THIS IS THE CONTACT FORM THAT NEEDS A DESTINATION.
 .contactform{
 	margin: 10px;
 }
@@ -212,7 +212,12 @@ p{
     border: none;
     font-weight: bold;
     margin-top: 20px;
+*/
+.links{
+	;
 }
+
+
 
 .footer{
 	background-color:dimgray;
