@@ -214,10 +214,16 @@ p{
     margin-top: 20px;
 */
 .links{
-	;
+	background-color: #141212;
+	color: lightcoral;
+	text-decoration: none;
 }
 
-
+.contactme{
+	background-color: #141212;
+	color: lightcoral;
+	text-decoration: none;
+}
 
 .footer{
 	background-color:dimgray;
