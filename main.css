@@ -9,6 +9,14 @@ body {
 	position: relative;
 }
 
+#animation {
+  border: none;
+  position: fixed;
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+}
+
 .home{
 	height: auto;
 	margin: 0px;
@@ -223,6 +231,10 @@ p{
 	background-color: #141212;
 	color: lightcoral;
 	text-decoration: none;
+}
+
+p a:hover{
+	color:cyan;
 }
 
 .footer{
