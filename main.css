@@ -112,7 +112,7 @@ p{
 }
 
 .row {
-	margin: 1 -15px;
+	margin: 2 -15px;
 }
 
 .row::after {
@@ -122,7 +122,7 @@ p{
 }
 
 .col {
-	padding: 1px 15px;
+	padding: 10px 15px;
 	float: left;
 	width: 100%;
 }
