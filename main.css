@@ -16,6 +16,13 @@ body {
   width: 100vw;
   height: 100vh;
 }
+#collage{
+	width: 50%;
+}
+
+#skull{
+	width: 50%;
+}
 
 .home{
 	height: auto;
@@ -97,10 +104,23 @@ h2{
 	opacity: .7;
 	text-align: center;
 }
+h3{
+	color:white;
+	text-align: left;
+}
 
 p{
 	color: white;
 }
+p a:hover{
+	color:cyan;
+}
+
+li{
+	color: white;
+	text-align: left;
+}
+
 
 .gallery{
 	margin: 20px;
@@ -112,7 +132,7 @@ p{
 }
 
 .row {
-	margin: 1 -15px;
+	margin: 2 -15px;
 }
 
 .row::after {
@@ -122,7 +142,7 @@ p{
 }
 
 .col {
-	padding: 1px 15px;
+	padding: 10px 15px;
 	float: left;
 	width: 100%;
 }
@@ -233,9 +253,6 @@ p{
 	text-decoration: none;
 }
 
-p a:hover{
-	color:cyan;
-}
 
 .footer{
 	background-color:dimgray;
@@ -262,3 +279,19 @@ p a:hover{
 .fa-user:hover{
   color: cyan;
 }
+
+.button{
+    padding: 10px 40px;
+  	display: inline-block;
+  	text-decoration:none;
+	color: white;
+}
+
+.button-primary{
+	border: 2px solid #262626;
+  	background: #262626;
+}
+
+.button-primary:hover{
+  	background: #444;
+  	border: 2px solid #444;
