@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css?family=VT323");
+body {
+  background: black;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'VT323', Helvetica, sans-serif;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px #ff0000;
+  font-size: 40px;
+}
+
+h2{
+font-family: 'VT323', Helvetica, sans-serif;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px #ff3333;
+  font-size: 30px;
+}
+
+p {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+p a{
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  text-shadow: 2px 2px #ff0000;
+  font-family: 'VT323', Helvetica, sans-serif;
+}
